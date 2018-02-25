@@ -1,5 +1,5 @@
 {% set name = "aspy.yaml" %}
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 {% set hash_type = "sha256" %}
 {% set hash = "f59ec8f43a96be234c2a589097312e5787e68ba716a2f2ce6c7df5c7c5bb008a" %}
 
