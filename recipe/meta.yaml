@@ -1,7 +1,7 @@
 {% set name = "aspy.yaml" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "455aa097212c7a435c1d5c99d18cdee80a0e4860f9f41dee86c149c47a95c980" %}
+{% set hash = "7276f15cb3900b050bc49d2807d76b0a9bc70e49d2cc491e11fa0dcc2699e7d7" %}
 
 package:
   name: {{ name }}
