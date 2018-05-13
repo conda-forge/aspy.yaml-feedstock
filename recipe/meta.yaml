@@ -1,7 +1,7 @@
 {% set name = "aspy.yaml" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set hash_type = "sha256" %}
-{% set hash = "7276f15cb3900b050bc49d2807d76b0a9bc70e49d2cc491e11fa0dcc2699e7d7" %}
+{% set hash = "69da4f3739d82d85b1464fb379e4696eee42925d5fbb757fca3f8d855745cfb0" %}
 
 package:
   name: {{ name }}
@@ -14,11 +14,12 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install . --no-deps --ignore-installed
   noarch: python
 
 requirements:
   build:
+    - pip
     - python
     - setuptools
 

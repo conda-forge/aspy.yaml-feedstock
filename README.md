@@ -14,12 +14,15 @@ Summary: A few extensions to pyyaml.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/aspy.yaml-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/aspy.yaml-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/aspy.yaml-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/aspy.yaml-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/aspy.yaml/badges/version.svg)](https://anaconda.org/conda-forge/aspy.yaml)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/aspy.yaml/badges/downloads.svg)](https://anaconda.org/conda-forge/aspy.yaml)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-aspy.yaml-green.svg)](https://anaconda.org/conda-forge/aspy.yaml) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/aspy.yaml.svg)](https://anaconda.org/conda-forge/aspy.yaml) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/aspy.yaml.svg)](https://anaconda.org/conda-forge/aspy.yaml) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/aspy.yaml.svg)](https://anaconda.org/conda-forge/aspy.yaml) |
 
 Installing aspy.yaml
 ====================
